@@ -9,6 +9,12 @@ permalink: /products/
 * [Get Product](#get-product)
 * [Get Product Followers](#get-product-followers)
 * [Add Product Follower](#post-product-follower)
+* [Delete Product Follower](#delete-product-follower)
+* [Get Product Comments](#get-product-comments)
+* [Add Product Comment](#post-product-comment)
+* [Get Product Wishlists](#get-product-wishlists)
+* [Get Product Promotions](#get-product-promotions)
+* [Get Product Scans](#get-product-scans)
 
 <br/>
 
@@ -171,10 +177,164 @@ Response Example
 </pre>
 <br/>
 
-<h4 id=""></h4>
-Endpoint: []()
+<h4 id="delete-product-follower">Delete Product Follower</h4>
+HTTP Method: POST
+<br/>
+Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/unfollow
+
+Payload Example
+<pre>
+{
+  "product_id": 30,
+  "user_id": 1
+}
+</pre>
 
 Response Example
 <pre>
-
+{
+  "code": 200,
+  "status": "OK",
+  "message": "Unfollow with success",
+  "data": null
+}
 </pre>
+<br/>
+
+<h4 id="get-product-comments">Get Product Comments</h4>
+HTTP Method: GET
+<br/>
+Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/comments/:product_id
+
+Response Example
+<pre>
+{
+  "code": 200,
+  "status": "OK",
+  "message": "Product's comments retrieved with success",
+  "data": {
+    "id": "30",
+    "name": "Footbal Boot",
+    "description": "Adidas Footbal Boot",
+    "price": "120.00",
+    "comments": [
+      {
+        "id": "7",
+        "comment": "amazing boots",
+        "updated_at": "2015-06-16 00:58:22",
+        "user": {
+          "id": "5",
+          "username": "miguel",
+          "image": "user/5/image.png"
+        },
+        ... ...
+      }
+    ]
+  }
+}
+</pre>
+<br/>
+
+<h4 id="post-product-comment">Add Product Comment</h4>
+HTTP Method: POST
+<br/>
+Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/comment
+
+Payload Example
+<pre>
+{
+  "user_id": 1,
+  "product_id": 30,
+  "comment": "Greate"
+}
+</pre>
+
+Response Example
+<pre>
+{
+  "code": 201,
+  "status": "Created",
+  "message": "Comment created with success",
+  "data": {
+    "id": "9"
+  }
+}
+</pre>
+<br/>
+
+<h4 id="get-product-wishlists">Get Product Wishlists</h4>
+HTTP Method: GET
+<br/>
+Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/wishlists/:product_id
+
+Response Example
+<pre>
+{
+  "code": 200,
+  "status": "OK",
+  "message": "Product's wishlists retrieved with success",
+  "data": {
+    "id": "30",
+    "name": "Footbal Boot",
+    "description": "Adidas Footbal Boot",
+    "price": "120.00",
+    "wishlists": [
+      {
+        "id": "18",
+        "user_id": "5",
+        "name": "shoes",
+        "is_public": "1"
+      }
+    ]
+  }
+}
+</pre>
+<br/>
+
+<h4 id="get-product-promotions">Get Product Promotions</h4>
+HTTP Method: GET
+<br/>
+Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/promotions/:product_id
+
+Response Example
+<pre>
+{
+  "code": 200,
+  "status": "OK",
+  "message": "Product's wishlists retrieved with success",
+  "data": {
+    "id": "30",
+    "name": "Footbal Boot",
+    "description": "Adidas Footbal Boot",
+    "price": "120.00",
+    "promotions": []
+  }
+}
+</pre>
+<br/>
+
+<h4 id="get-product-scans">Get Product Scans</h4>
+HTTP Method: GET
+<br/>
+Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/scans/:product_id
+
+Response Example
+<pre>
+{
+  "code": 200,
+  "status": "OK",
+  "message": "Product's scans retrieved with success",
+  "data": {
+    "id": "30",
+    "name": "Footbal Boot",
+    "description": "Adidas Footbal Boot",
+    "price": "120.00",
+    "scans": [
+      {
+        "id": "2"
+      }
+    ]
+  }
+}
+</pre>
+<br/>

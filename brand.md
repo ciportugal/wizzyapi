@@ -15,6 +15,7 @@ permalink: /brands/
 * [Delete Brand Follower](#delete-brand-follower)
 <br/>
 
+
 <h4 id="get-brands">Get Brands</h4>
 HTTP Method: GET
 <br/>
