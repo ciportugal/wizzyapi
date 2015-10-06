@@ -5,12 +5,12 @@ permalink: /wishlists/
 ---
 
 <h3>Methods</h3>
-* [Get Wishlists](#get-wishlists)
-* [Get Wishlist](#get-wishlist)
+* [Get Wishlists](#wishlists)
+* [Get Wishlist](#wishlist)
 
 <br/>
 
-<h4 id="get-wishlists">Get Wishlists</h4>
+<h4 id="wishlists">Get Wishlists</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/wishlist
@@ -40,7 +40,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-wishlist">Get Wishlist</h4>
+<h4 id="wishlist">Get Wishlist</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/wishlist/:wishlist_id

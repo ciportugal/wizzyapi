@@ -5,12 +5,12 @@ permalink: /categories/
 ---
 
 <h3>Methods</h3>
-* [Get Categories](#get-categories)
-* [Get Category](#get-category)
+* [Get Categories](#categories)
+* [Get Category](#category)
 
 <br/>
 
-<h4 id="get-categories">Get Categories</h4>
+<h4 id="categories">Get Categories</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/category
@@ -46,7 +46,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-category">Get Category</h4>
+<h4 id="category">Get Category</h4>
 HTTP Method: GET
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/category/:category_id
 

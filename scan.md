@@ -5,12 +5,12 @@ permalink: /scans/
 ---
 
 <h3>Methods</h3>
-* [Get Scans](#get-scans)
-* [Get Scan](#get-scan)
+* [Get Scans](#scans)
+* [Get Scan](#scan)
 
 <br/>
 
-<h4 id="get-scans">Get Scans</h4>
+<h4 id="scans">Get Scans</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/scan
@@ -44,7 +44,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-scan">Get Scan</h4>
+<h4 id="scan">Get Scan</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/scan/2

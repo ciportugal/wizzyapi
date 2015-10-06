@@ -5,12 +5,12 @@ permalink: /stores/
 ---
 
 <h3>Methods</h3>
-* [Get Stores](#get-stores)
-* [Get Store](#get-store)
+* [Get Stores](#stores)
+* [Get Store](#store)
 
 <br/>
 
-<h4 id="get-stores">Get Stores</h4>
+<h4 id="stores">Get Stores</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/store
@@ -39,7 +39,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-store">Get Store</h4>
+<h4 id="store">Get Store</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/store/:store_id

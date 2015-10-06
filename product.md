@@ -5,20 +5,20 @@ permalink: /products/
 ---
 
 <h3>Methods</h3>
-* [Get Products](#get-products)
-* [Get Product](#get-product)
-* [Get Product Followers](#get-product-followers)
-* [Add Product Follower](#post-product-follower)
-* [Delete Product Follower](#delete-product-follower)
-* [Get Product Comments](#get-product-comments)
-* [Add Product Comment](#post-product-comment)
-* [Get Product Wishlists](#get-product-wishlists)
-* [Get Product Promotions](#get-product-promotions)
-* [Get Product Scans](#get-product-scans)
+* [Get Products](#products)
+* [Get Product](#product)
+* [Get Product Followers](#followers)
+* [Add Product Follower](#add-follower)
+* [Delete Product Follower](#delete-follower)
+* [Get Product Comments](#comments)
+* [Add Product Comment](#add-comment)
+* [Get Product Wishlists](#wishlists)
+* [Get Product Promotions](#promotions)
+* [Get Product Scans](#scans)
 
 <br/>
 
-<h4 id="get-products">Get Products</h4>
+<h4 id="products">Get Products</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/product
@@ -71,7 +71,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-product">Get Product</h4>
+<h4 id="product">Get Product</h4>
 HTTP Method: GET
 <br/>
 Endpoin
@@ -121,7 +121,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-product-followers">Get Product Followers</h4>
+<h4 id="followers">Get Product Followers</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/followers/:product_id
@@ -149,7 +149,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="post-product-follower">Add Product Follower</h4>
+<h4 id="add-follower">Add Product Follower</h4>
 HTTP Method: POST
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/follow
@@ -177,7 +177,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="delete-product-follower">Delete Product Follower</h4>
+<h4 id="delete-follower">Delete Product Follower</h4>
 HTTP Method: POST
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/unfollow
@@ -201,7 +201,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-product-comments">Get Product Comments</h4>
+<h4 id="comments">Get Product Comments</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/comments/:product_id
@@ -235,7 +235,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="post-product-comment">Add Product Comment</h4>
+<h4 id="add-comment">Add Product Comment</h4>
 HTTP Method: POST
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/comment
@@ -262,7 +262,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-product-wishlists">Get Product Wishlists</h4>
+<h4 id="wishlists">Get Product Wishlists</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/wishlists/:product_id
@@ -291,7 +291,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-product-promotions">Get Product Promotions</h4>
+<h4 id="promotions">Get Product Promotions</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/promotions/:product_id
@@ -313,7 +313,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-product-scans">Get Product Scans</h4>
+<h4 id="scans">Get Product Scans</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/scans/:product_id

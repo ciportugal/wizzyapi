@@ -5,12 +5,12 @@ permalink: /promotions/
 ---
 
 <h3>Methods</h3>
-* [Get Promotions](#get-promotions)
-* [Get Promotion](#get-promotion)
+* [Get Promotions](#promotions)
+* [Get Promotion](#promotion)
 
 <br/>
 
-<h4 id="get-promotions">Get Promotions</h4>
+<h4 id="promotions">Get Promotions</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/promotion
@@ -39,7 +39,7 @@ Response Example
 }
 </pre>
 
-<h4 id="get-promotion">Get Promotion</h4>
+<h4 id="promotion">Get Promotion</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/promotion/:promotion_id

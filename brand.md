@@ -5,18 +5,18 @@ permalink: /brands/
 ---
 
 ###Methods
-* [Get Brands](#get-brands)
-* [Get Brand](#get-brand)
-* [Get Brand Followers](#get-brand-followers)
-* [Get Brand Products](#get-brand-products)
-* [Get Brand Promotions](#get-brand-promotions)
-* [Get Brand Scans](#get-brand-scans)
-* [Add Brand Follower](#post-brand-follower)
-* [Delete Brand Follower](#delete-brand-follower)
+* [Get Brands](#brands)
+* [Get Brand](#brand)
+* [Get Brand Followers](#followers)
+* [Get Brand Products](#products)
+* [Get Brand Promotions](#promotions)
+* [Get Brand Scans](#scans)
+* [Add Brand Follower](#add-follower)
+* [Delete Brand Follower](#delete-follower)
 <br/>
 
 
-<h4 id="get-brands">Get Brands</h4>
+<h4 id="brands">Get Brands</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand
@@ -57,7 +57,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-brand">Get Brand</h4>
+<h4 id="brand">Get Brand</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/:brand_id
@@ -95,7 +95,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-brand-followers">Get Brand Followers</h4>
+<h4 id="followers">Get Brand Followers</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/followers/:brand_id
@@ -125,7 +125,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-brand-products">Get Brand Products</h4>
+<h4 id="products">Get Brand Products</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/products/:brand_id
@@ -171,7 +171,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-brand-promotions">Get Brand Promotions</h4>
+<h4 id="promotions">Get Brand Promotions</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/promotions/:brand_id
@@ -191,7 +191,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="get-brand-scans">Get Brand Scans</h4>
+<h4 id="scans">Get Brand Scans</h4>
 HTTP Method: GET
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/scans/:brand_id
@@ -211,7 +211,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="post-brand-follower">Add Brand Follower</h4>
+<h4 id="add-follower">Add Brand Follower</h4>
 HTTP Method: POST
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/follow
@@ -238,7 +238,7 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="delete-brand-follower">Delete Brand Follower</h4>
+<h4 id="delete-follower">Delete Brand Follower</h4>
 HTTP Method: POST
 <br/>
 Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/unfollow
