@@ -38,6 +38,7 @@ Response Example
         "images": []
       }
     }
+    ... ...
   ]
 }
 </pre>
