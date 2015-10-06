@@ -8,6 +8,7 @@ permalink: /promotions/
 * [Get Promotions](#get-promotions)
 * [Get Promotion](#get-promotion)
 
+<br/>
 
 <h4 id="get-promotions">Get Promotions</h4>
 HTTP Method: GET
