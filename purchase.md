@@ -6,7 +6,9 @@ permalink: /purchases/
 
 <h3>Methods</h3>
 * [Name](#id)
-
+<br/>
+<br/>
+<br/>
 
 <h4 id="get-brands">Name</h4>
 Endpoint: []()

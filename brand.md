@@ -3,6 +3,8 @@ layout: page
 title: Brands
 permalink: /brands/
 ---
+<p>Allowed operations for brands. Authentication is required for some endpoints.</p>
+<br/>
 
 ###Methods
 * [Get Brands](#brands)
@@ -14,12 +16,15 @@ permalink: /brands/
 * [Add Brand Follower](#add-follower)
 * [Delete Brand Follower](#delete-follower)
 <br/>
-
+<br/>
+<br/>
 
 <h4 id="brands">Get Brands</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/brand](http://wizzyshop.eddmi.com/api/brand)
 
 Response Example
 <pre>
@@ -57,10 +62,15 @@ Response Example
 </pre>
 <br/>
 
+
 <h4 id="brand">Get Brand</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/:brand_id
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/brand/$brand_id](http://wizzyshop.eddmi.com/api/brand/:$brand_id)
+<br/>
+$brand_id: The brand's id
 
 Response Example
 <pre>
@@ -98,7 +108,11 @@ Response Example
 <h4 id="followers">Get Brand Followers</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/followers/:brand_id
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/brand/followers/$brand_id](http://wizzyshop.eddmi.com/api/brand/followers/$brand_id)
+<br/>
+$brand_id: The brand's id
 
 Response Example
 <pre>
@@ -128,7 +142,11 @@ Response Example
 <h4 id="products">Get Brand Products</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/products/:brand_id
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/brand/products/$brand_id](http://wizzyshop.eddmi.com/api/brand/products/$brand_id)
+<br/>
+$brand_id: The brabd's id
 
 Response Example
 <pre>
@@ -174,7 +192,11 @@ Response Example
 <h4 id="promotions">Get Brand Promotions</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/promotions/:brand_id
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/brand/promotions/$brand_id](http://wizzyshop.eddmi.com/api/brand/promotions/$brand_id)
+<br/>
+$brand_id: The brand's id
 
 Response Example
 <pre>
@@ -194,7 +216,11 @@ Response Example
 <h4 id="scans">Get Brand Scans</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/scans/:brand_id
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/brand/scans/$brand_id](http://wizzyshop.eddmi.com/api/brand/scans/$brand_id)
+<br/>
+$brand_id: The brand's id
 
 Response Example
 <pre>
@@ -214,13 +240,15 @@ Response Example
 <h4 id="add-follower">Add Brand Follower</h4>
 HTTP Method: POST
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/follow
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/brand/follow](http://wizzyshop.eddmi.com/api/brand/follow)
 
 Payload Example
 <pre>
 {
   "brand_id": 8,
-  "user_id": 1
+  "user_id": 1 
  }
 </pre>
 
@@ -241,7 +269,9 @@ Response Example
 <h4 id="delete-follower">Delete Brand Follower</h4>
 HTTP Method: POST
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/brand/unfollow
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/brand/unfollow](http://wizzyshop.eddmi.com/api/brand/unfollow)
 
 Payload Example
 <pre>

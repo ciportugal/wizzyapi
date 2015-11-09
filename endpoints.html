@@ -1,0 +1,25 @@
+---
+layout: default
+permalink: /endpoints/
+---
+
+<div class="home" style="text-align: justify;">
+
+    <h1>Endpoints</h1>
+
+    <ul class=""> 
+        {% for page in site.pages %}
+        {% if page.title %}
+        <li><a class="page-link" href="{{ page.url | prepend: site.baseurl }}/">{{ page.title }}</a></li>
+        {% endif %}
+        {% endfor %}
+    </ul>
+
+    <br/>
+    <p class="rss-subscribe">Get Postman Collection: 
+        <a href="https://www.getpostman.com/collections/0203262ab079678a5965" target="_new()" >
+            https://www.getpostman.com/collections/0203262ab079678a5965
+        </a>
+    </p>
+
+</div>

@@ -7,13 +7,14 @@ permalink: /scans/
 <h3>Methods</h3>
 * [Get Scans](#scans)
 * [Get Scan](#scan)
-
+<br/>
+<br/>
 <br/>
 
 <h4 id="scans">Get Scans</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/scan
+Endpoint: http://wizzyshop.eddmi.com/api/scan
 
 Response Example
 <pre>

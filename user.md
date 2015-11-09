@@ -7,13 +7,14 @@ permalink: /users/
 <h3>Methods</h3>
 * [Register](#register)
 * [Login](#login)
-
+<br/>
+<br/>
 <br/>
 
 <h4 id="register">Register</h4>
 HTTP Method: POST
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/user/register
+Endpoint: http://wizzyshop.eddmi.com/api/user/register
 
 Payload Example
 <pre>
@@ -58,7 +59,7 @@ Response Example
 <h4 id="login">Login</h4>
 HTTP Method: POST
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/user/login
+Endpoint: http://wizzyshop.eddmi.com/api/user/login
 
 Payload Example
 <pre>

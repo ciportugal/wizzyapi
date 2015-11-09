@@ -7,13 +7,16 @@ permalink: /categories/
 <h3>Methods</h3>
 * [Get Categories](#categories)
 * [Get Category](#category)
-
+<br/>
+<br/>
 <br/>
 
 <h4 id="categories">Get Categories</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/category
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/category](http://wizzyshop.eddmi.com/api/category)
 
 Response Example
 <pre>
@@ -48,7 +51,12 @@ Response Example
 
 <h4 id="category">Get Category</h4>
 HTTP Method: GET
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/category/:category_id
+<br/>
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/category/$category_id](http://wizzyshop.eddmi.com/api/category/$category_id)
+<br/>
+$category_id: The category's id
 
 Response Example
 <pre>

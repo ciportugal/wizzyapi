@@ -15,13 +15,16 @@ permalink: /products/
 * [Get Product Wishlists](#wishlists)
 * [Get Product Promotions](#promotions)
 * [Get Product Scans](#scans)
-
+<br/>
+<br/>
 <br/>
 
 <h4 id="products">Get Products</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/product](http://wizzyshop.eddmi.com/api/product)
 
 Response Example
 <pre>
@@ -74,8 +77,11 @@ Response Example
 <h4 id="product">Get Product</h4>
 HTTP Method: GET
 <br/>
-Endpoin
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/:product_id
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/product/$product_id](http://wizzyshop.eddmi.com/api/product/$product_id)
+<br/>
+$product_id: The product's id
 
 Response Example
 <pre>
@@ -124,7 +130,11 @@ Response Example
 <h4 id="followers">Get Product Followers</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/followers/:product_id
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/product/followers/$product_id](http://wizzyshop.eddmi.com/api/product/followers/$product_id)
+<br/>
+$product_id: The product's id
 
 Response Example
 <pre>
@@ -152,7 +162,9 @@ Response Example
 <h4 id="add-follower">Add Product Follower</h4>
 HTTP Method: POST
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/follow
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/product/follow](http://wizzyshop.eddmi.com/api/product/follow)
 
 
 Payload Example
@@ -180,7 +192,9 @@ Response Example
 <h4 id="delete-follower">Delete Product Follower</h4>
 HTTP Method: POST
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/unfollow
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/product/unfollow](http://wizzyshop.eddmi.com/api/product/unfollow)
 
 Payload Example
 <pre>
@@ -204,7 +218,11 @@ Response Example
 <h4 id="comments">Get Product Comments</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/comments/:product_id
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/product/comments/$product_id](http://wizzyshop.eddmi.com/api/product/comments/$product_id)
+<br/>
+$product_id: The product's id
 
 Response Example
 <pre>
@@ -238,14 +256,16 @@ Response Example
 <h4 id="add-comment">Add Product Comment</h4>
 HTTP Method: POST
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/comment
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/product/comment](http://wizzyshop.eddmi.com/api/product/comment)
 
 Payload Example
 <pre>
 {
   "user_id": 1,
   "product_id": 30,
-  "comment": "Greate"
+  "comment": "OK"
 }
 </pre>
 
@@ -265,7 +285,11 @@ Response Example
 <h4 id="wishlists">Get Product Wishlists</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/wishlists/:product_id
+Requires Authentication: √
+<br/>
+Endpoint:[http://wizzyshop.eddmi.com/api/product/wishlists/$product_id](http://wizzyshop.eddmi.com/api/product/wishlists/$product_id)
+<br/>
+$product_id: The product's id
 
 Response Example
 <pre>
@@ -294,7 +318,11 @@ Response Example
 <h4 id="promotions">Get Product Promotions</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/promotions/:product_id
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/product/promotions/$product_id](http://wizzyshop.eddmi.com/api/product/promotions/$product_id)
+<br/>
+$product_id: The product's id
 
 Response Example
 <pre>
@@ -316,7 +344,11 @@ Response Example
 <h4 id="scans">Get Product Scans</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/product/scans/:product_id
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/product/scans/$product_id](http://wizzyshop.eddmi.com/api/product/scans/$product_id)
+<br/>
+$product_id: The product's id
 
 Response Example
 <pre>

@@ -7,13 +7,14 @@ permalink: /wishlists/
 <h3>Methods</h3>
 * [Get Wishlists](#wishlists)
 * [Get Wishlist](#wishlist)
-
+<br/>
+<br/>
 <br/>
 
 <h4 id="wishlists">Get Wishlists</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/wishlist
+Endpoint: http://wizzyshop.eddmi.com/api/wishlist
 
 Response Example
 <pre>
@@ -43,7 +44,7 @@ Response Example
 <h4 id="wishlist">Get Wishlist</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/wishlist/:wishlist_id
+Endpoint: http://wizzyshop.eddmi.com/api/wishlist/:wishlist_id
 
 Response Example
 <pre>

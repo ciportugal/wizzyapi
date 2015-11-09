@@ -7,13 +7,16 @@ permalink: /gamification/
 <h3>Methods</h3>
 * [Get Gamifications](#gamifications)
 * [Get Gamification](#gamification)
-
+<br/>
+<br/>
 <br/>
 
 <h4 id="gamifications">Get Gamifications</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/gamification
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/gamification](http://wizzyshop.eddmi.com/api/gamification)
 
 Response Example
 <pre>
@@ -56,7 +59,11 @@ Response Example
 <h4 id="gamification">Get Gamification</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/gamification/:gamification_id
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/gamification/$gamification_id](http://wizzyshop.eddmi.com/api/gamification/$gamification_id)
+<br/>
+$gamification_id: The gamification's id
 
 Response Example
 <pre>
