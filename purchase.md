@@ -3,49 +3,13 @@ layout: page
 title: Purchases
 permalink: /purchases/
 ---
+<p>Allowed operations for purchases.</p>
+<br/>
 
-<h3>Methods</h3>
-* [Name](#id)
+<p>There are no API methods for endpoint purchases</p>
 <br/>
 <br/>
 <br/>
-
-<h4 id="get-brands">Name</h4>
-Endpoint: []()
-
-Response Example
-<pre>
-
-</pre>
-
-<h4 id=""></h4>
-Endpoint: []()
-
-Response Example
-<pre>
-
-</pre>
-
-<h4 id=""></h4>
-Endpoint: []()
-
-Response Example
-<pre>
-
-</pre>
-
-<h4 id=""></h4>
-Endpoint: []()
-
-Response Example
-<pre>
-
-</pre>
-
-<h4 id=""></h4>
-Endpoint: []()
-
-Response Example
-<pre>
-
-</pre>
+<br/>
+<br/>
+<br/>

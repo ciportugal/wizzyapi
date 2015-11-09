@@ -3,10 +3,12 @@ layout: page
 title: Gamification
 permalink: /gamification/
 ---
+<p>Allowed operations for devicesa. Note that authentication is required for all endpoints.</p>
+<br/>
 
 <h3>Methods</h3>
-* [Get Gamifications](#gamifications)
-* [Get Gamification](#gamification)
+[Get Gamifications](#gamifications) | 
+[Get Gamification](#gamification)
 <br/>
 <br/>
 <br/>

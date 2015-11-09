@@ -3,18 +3,20 @@ layout: page
 title: Products
 permalink: /products/
 ---
+<p>Allowed operations for brands. Note that authentication is required for some endpoints.</p>
+<br/>
 
 <h3>Methods</h3>
-* [Get Products](#products)
-* [Get Product](#product)
-* [Get Product Followers](#followers)
-* [Add Product Follower](#add-follower)
-* [Delete Product Follower](#delete-follower)
-* [Get Product Comments](#comments)
-* [Add Product Comment](#add-comment)
-* [Get Product Wishlists](#wishlists)
-* [Get Product Promotions](#promotions)
-* [Get Product Scans](#scans)
+[Get Products](#products) | 
+[Get Product](#product) | 
+[Get Product Followers](#followers) | 
+[Add Product Follower](#add-follower) | 
+[Delete Product Follower](#delete-follower) | 
+[Get Product Comments](#comments) | 
+[Add Product Comment](#add-comment) | 
+[Get Product Wishlists](#wishlists) | 
+[Get Product Promotions](#promotions) | 
+[Get Product Scans](#scans)
 <br/>
 <br/>
 <br/>

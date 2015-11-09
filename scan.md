@@ -3,10 +3,14 @@ layout: page
 title: Scans
 permalink: /scans/
 ---
+<p>Allowed operations for scans. Note that authentication is required for some endpoints.</p>
+<br/>
+
 
 <h3>Methods</h3>
-* [Get Scans](#scans)
-* [Get Scan](#scan)
+[Get Scans](#scans) | 
+[Get Scan](#scan) | 
+[Add Scan](#add)
 <br/>
 <br/>
 <br/>
@@ -14,7 +18,9 @@ permalink: /scans/
 <h4 id="scans">Get Scans</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/api/scan
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/scan](http://wizzyshop.eddmi.com/api/scan)
 
 Response Example
 <pre>
@@ -48,7 +54,11 @@ Response Example
 <h4 id="scan">Get Scan</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/index.php/api/scan/2
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/scan/$scan_id](http://wizzyshop.eddmi.com/api/scan/$scan_id)
+<br/>
+$scan_id: The scan's id
 
 Response Example
 <pre>
@@ -74,3 +84,37 @@ Response Example
   }
 }
 </pre>
+<br/>
+
+<h4 id="add">Add Scan</h4>
+HTTP Method: POST
+<br/>
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/scan/](http://wizzyshop.eddmi.com/api/scan/)
+<br/>
+
+Payload Example
+<pre>
+{
+    "scan_id": "2"
+}
+</pre>
+<br/>
+
+Response Example
+<pre>
+{
+  "code": 201,
+  "status": "Created",
+  "message": "Scan successfully created",
+  "data": {
+    "user": {
+      "id": "3",
+      "username": "apiguy",
+      "balance": 0
+    }
+  }
+}
+</pre>
+<br/>

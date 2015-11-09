@@ -3,18 +3,18 @@ layout: page
 title: Brands
 permalink: /brands/
 ---
-<p>Allowed operations for brands. Authentication is required for some endpoints.</p>
+<p>Allowed operations for brands. Note that authentication is required for some endpoints.</p>
 <br/>
 
 ###Methods
-* [Get Brands](#brands)
-* [Get Brand](#brand)
-* [Get Brand Followers](#followers)
-* [Get Brand Products](#products)
-* [Get Brand Promotions](#promotions)
-* [Get Brand Scans](#scans)
-* [Add Brand Follower](#add-follower)
-* [Delete Brand Follower](#delete-follower)
+[Get Brands](#brands) | 
+[Get Brand](#brand) | 
+[Get Brand Followers](#followers) | 
+[Get Brand Products](#products) | 
+[Get Brand Promotions](#promotions) | 
+[Get Brand Scans](#scans) | 
+[Add Brand Follower](#add-follower) | 
+[Delete Brand Follower](#delete-follower)
 <br/>
 <br/>
 <br/>

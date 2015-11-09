@@ -5,7 +5,7 @@ permalink: /pushnotifications/
 ---
 
 <h3>Methods</h3>
-* [Get Push Notifications](#get)
+[Get Push Notifications](#get)
 <br/>
 <br/>
 <br/>
@@ -56,36 +56,3 @@ Response Example
 }
 </pre>
 <br/>
-
-
-<h4 id=""></h4>
-Endpoint: []()
-
-Response Example
-<pre>
-
-</pre>
-
-<h4 id=""></h4>
-Endpoint: []()
-
-Response Example
-<pre>
-
-</pre>
-
-<h4 id=""></h4>
-Endpoint: []()
-
-Response Example
-<pre>
-
-</pre>
-
-<h4 id=""></h4>
-Endpoint: []()
-
-Response Example
-<pre>
-
-</pre>

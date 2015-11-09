@@ -3,11 +3,13 @@ layout: page
 title: Promotions
 permalink: /promotions/
 ---
+<p>Allowed operations for promotions.</p>
+<br/>
 
 <h3>Methods</h3>
-* [Get Promotions](#promotions)
-* [Get Promotion](#promotion)
-* [Get Promotion's Products](#products)
+[Get Promotions](#promotions) | 
+[Get Promotion](#promotion) | 
+[Get Promotion's Products](#products)
 <br/>
 <br/>
 <br/>

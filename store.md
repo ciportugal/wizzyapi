@@ -3,10 +3,12 @@ layout: page
 title: Stores
 permalink: /stores/
 ---
+<p>Allowed operations for brands. Note that authentication is required for some endpoints.</p>
+<br/>
 
 <h3>Methods</h3>
-* [Get Stores](#stores)
-* [Get Store](#store)
+[Get Stores](#stores) | 
+[Get Store](#store)
 <br/>
 <br/>
 <br/>
@@ -14,7 +16,9 @@ permalink: /stores/
 <h4 id="stores">Get Stores</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/api/store
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/store](http://wizzyshop.eddmi.com/api/store)
 
 Response Example
 <pre>
@@ -25,13 +29,13 @@ Response Example
   "data": [
     {
       "id": "6",
-      "name": "Adidas",
+      "name": "Ardidas",
       "address": "Rua oliveira",
       "postal_code": "4740",
       "city": "Porto",
       "brand": {
         "id": "7",
-        "name": "Adidas"
+        "name": "Ardidas"
       }
       ... ...
     }
@@ -43,7 +47,11 @@ Response Example
 <h4 id="store">Get Store</h4>
 HTTP Method: GET
 <br/>
-Endpoint: http://wizzyshop.eddmi.com/api/store/:store_id
+Requires Authentication: x
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/store/$store_id](http://wizzyshop.eddmi.com/api/store/$store_id)
+<br/>
+$store_id: The store's id
 
 Response Example
 <pre>
@@ -53,13 +61,13 @@ Response Example
   "message": "Store retrived with success",
   "data": {
     "id": "6",
-    "name": "Adidas",
+    "name": "Ardidas",
     "address": "Rua oliveira",
     "postal_code": "4740",
     "city": "Porto",
     "brand": {
       "id": "7",
-      "name": "Adidas"
+      "name": "Ardidas"
     }
   }
 }

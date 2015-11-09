@@ -3,10 +3,12 @@ layout: page
 title: Categories
 permalink: /categories/
 ---
+<p>Allowed operations for categories.</p>
+<br/>
 
 <h3>Methods</h3>
-* [Get Categories](#categories)
-* [Get Category](#category)
+[Get Categories](#categories) | 
+[Get Category](#category)
 <br/>
 <br/>
 <br/>
