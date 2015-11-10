@@ -14,10 +14,11 @@ permalink: /users/
 [Update User](#update) | 
 [Get User Comments](#comments) | 
 [Get User Wishlists](#wishlists) | 
-[Get User Points](#points) | 
 [Get User Followers](#followers) | 
 [Follow User](#follow) | 
 [Unfollow User](#unfollow) | 
+[Get User Points](#points) | 
+[Assign User Points](#assign) | 
 [Update User Images](#images)
 
 <br/>
@@ -25,6 +26,8 @@ permalink: /users/
 <br/>
 
 <h4 id="register">Register</h4>
+<p>Register a new user</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: x
@@ -72,6 +75,8 @@ Response Example
 
 
 <h4 id="login">Login</h4>
+<p>Login the user</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: x
@@ -123,6 +128,8 @@ Response Example
 
 
 <h4 id="fblogin">Facebook Login</h4>
+<p>Login the user with Facebook</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: x
@@ -173,6 +180,8 @@ Response Example
 
 
 <h4 id="get">Get User</h4>
+<p>Get user's informations. Self or others.</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
@@ -247,6 +256,8 @@ Response Example if Other
 
 
 <h4 id="update">Update User</h4>
+<p>Update user's informations</p>
+
 HTTP Method: PUT
 <br/>
 Requires Authentication: √
@@ -282,12 +293,13 @@ Response Example
     "logged": 0
   }
 }
-
 </pre>
 <br/>
 
 
 <h4 id="comments">Get User Comments</h4>
+<p>Retrieve the user's comments</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
@@ -318,6 +330,8 @@ Response Example
 <br/>
 
 <h4 id="wishlists">Get User Wishlists</h4>
+<p>Retrieve the user's wishlists</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
@@ -348,35 +362,14 @@ Response Example
 <br/>
 
 
-<h4 id="points">Get User Points</h4>
-HTTP Method: GET
-<br/>
-Requires Authentication: √
-<br/>
-Endpoint: [http://wizzyshop.eddmi.com/api/user/points](http://wizzyshop.eddmi.com/api/user/points)
-
-Response Example
-<pre>
-{
-  "code": 200,
-  "status": "OK",
-  "message": "User's points retrieved with success",
-  "data": {
-    "id": "10",
-    "username": "apiguy",
-    "points": []
-  }
-}
-</pre>
-<br/>
-
-
 <h4 id="follows">Get User Follows</h4>
+<p>Retrieve user's followers</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
 <br/>
-Endpoint: [http://wizzyshop.eddmi.com/api/user/follows](http://wizzyshop.eddmi.com/api/user/follows/$user_id)
+Endpoint: [http://wizzyshop.eddmi.com/api/user/follows/$user_id](http://wizzyshop.eddmi.com/api/user/follows/$user_id)
 <br/>
 $user_id: The user's to retrieve id
 
@@ -403,6 +396,8 @@ Response Example
 
 
 <h4 id="follow">Follow User</h4>
+<p>Set the user as follower of the user with the given id</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √
@@ -424,9 +419,11 @@ Response Example
     "user_followed_id": "1"
 }
 </pre>
-<br
+<br/>
 
 <h4 id="unfollow">Unfollow User</h4>
+<p>Remove the user as follower of the user with the given id</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √
@@ -452,7 +449,75 @@ Response Example
 </pre>
 <br/>
 
+
+<h4 id="points">Get User Points</h4>
+<p>Retrieve the user's points</p>
+
+HTTP Method: GET
+<br/>
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/user/points](http://wizzyshop.eddmi.com/api/user/points)
+
+Response Example
+<pre>
+{
+  "code": 200,
+  "status": "OK",
+  "message": "User's points retrieved with success",
+  "data": {
+    "id": "10",
+    "username": "apiguy",
+    "points": []
+  }
+}
+</pre>
+<br/>
+
+
+<h4 id="assign">Assign User Points</h4>
+<p>Assign the user's points to a brand</p>
+
+HTTP Method: POST
+<br/>
+Requires Authentication: √
+<br/>
+Endpoint: [http://wizzyshop.eddmi.com/api/user/assign](http://wizzyshop.eddmi.com/api/user/assign)
+
+Payload Example
+<pre>
+{
+    "brand_id": "10"
+}
+</pre>
+
+
+Response Example
+<pre>
+{
+  "code": 200,
+  "status": "OK",
+  "message": "Points assigned with success",
+  "data": {
+    "user": {
+      "id": "6",
+      "username": "apiguy",
+      "email": "apiguy@eddmi.com"
+    },
+    "brand": {
+      "id": "10",
+      "name": "Neil Barret",
+      "points": "0"
+    }
+  }
+}
+</pre>
+<br/>
+
+
 <h4 id="images">Set/Update User Images</h4>
+<p>Set/update the user's images</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √

@@ -14,6 +14,8 @@ permalink: /gamification/
 <br/>
 
 <h4 id="gamifications">Get Gamifications</h4>
+<p>Retrieve all gamifications</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
@@ -59,6 +61,8 @@ Response Example
 <br/>
 
 <h4 id="gamification">Get Gamification</h4>
+<p>Retrieve one gamification</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √

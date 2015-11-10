@@ -10,10 +10,10 @@ permalink: /products/
 [Get Products](#products) | 
 [Get Product](#product) | 
 [Get Product Followers](#followers) | 
-[Add Product Follower](#add-follower) | 
+[Create Product Follower](#follower) | 
 [Delete Product Follower](#delete-follower) | 
 [Get Product Comments](#comments) | 
-[Add Product Comment](#add-comment) | 
+[Create Product Comment](#comment) | 
 [Get Product Wishlists](#wishlists) | 
 [Get Product Promotions](#promotions) | 
 [Get Product Scans](#scans)
@@ -22,6 +22,8 @@ permalink: /products/
 <br/>
 
 <h4 id="products">Get Products</h4>
+<p>Retrieve all products</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -77,6 +79,8 @@ Response Example
 <br/>
 
 <h4 id="product">Get Product</h4>
+<p>Retrieve one product</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -130,6 +134,8 @@ Response Example
 <br/>
 
 <h4 id="followers">Get Product Followers</h4>
+<p>Retrieve the product's followers</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
@@ -161,7 +167,9 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="add-follower">Add Product Follower</h4>
+<h4 id="follower">Create Product Follower</h4>
+<p>Set the user as follower of the product</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √
@@ -192,6 +200,8 @@ Response Example
 <br/>
 
 <h4 id="delete-follower">Delete Product Follower</h4>
+<p>Remove the user as follower of the product</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √
@@ -218,6 +228,8 @@ Response Example
 <br/>
 
 <h4 id="comments">Get Product Comments</h4>
+<p>Retrieve the product's comments</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -255,7 +267,9 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="add-comment">Add Product Comment</h4>
+<h4 id="comment">Create Product Comment</h4>
+<p>Retrieve the product's comment with the given id</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √
@@ -285,6 +299,8 @@ Response Example
 <br/>
 
 <h4 id="wishlists">Get Product Wishlists</h4>
+<p>Retrieve the product's wishlists</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
@@ -318,6 +334,8 @@ Response Example
 <br/>
 
 <h4 id="promotions">Get Product Promotions</h4>
+<p>Retrieve the product's promotions</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
@@ -344,6 +362,8 @@ Response Example
 <br/>
 
 <h4 id="scans">Get Product Scans</h4>
+<p>Retrieve the product's scans</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √

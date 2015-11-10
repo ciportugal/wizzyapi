@@ -14,6 +14,8 @@ permalink: /stores/
 <br/>
 
 <h4 id="stores">Get Stores</h4>
+<p>Retrieve all stores</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -45,6 +47,8 @@ Response Example
 <br/>
 
 <h4 id="store">Get Store</h4>
+<p>Retrieve one store</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x

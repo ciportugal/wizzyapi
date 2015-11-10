@@ -14,6 +14,8 @@ permalink: /categories/
 <br/>
 
 <h4 id="categories">Get Categories</h4>
+<p>Retrieve all categories</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -52,6 +54,8 @@ Response Example
 <br/>
 
 <h4 id="category">Get Category</h4>
+<p>Retrieve one category</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x

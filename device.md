@@ -7,12 +7,14 @@ permalink: /devices/
 <br/>
 
 <h3>Methods</h3>
-[Add Device](#device)
+[Create Device](#device)
 <br/>
 <br/>
 <br/>
 
-<h4 id="device">Add Device</h4>
+<h4 id="device">Create Device</h4>
+<p>Add the user's device</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √

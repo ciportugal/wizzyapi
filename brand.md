@@ -13,13 +13,15 @@ permalink: /brands/
 [Get Brand Products](#products) | 
 [Get Brand Promotions](#promotions) | 
 [Get Brand Scans](#scans) | 
-[Add Brand Follower](#add-follower) | 
+[Create Brand Follower](#follower) | 
 [Delete Brand Follower](#delete-follower)
 <br/>
 <br/>
 <br/>
 
 <h4 id="brands">Get Brands</h4>
+<p>Retrieve all brands</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -31,7 +33,7 @@ Response Example
 {
   "code": 200,
   "status": "OK",
-  "message": "Brands retrived with success",
+  "message": "Brands retrieved with success",
   "data": [
     {
       "id": "8",
@@ -64,6 +66,8 @@ Response Example
 
 
 <h4 id="brand">Get Brand</h4>
+<p>Retrieve one brand</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -106,6 +110,8 @@ Response Example
 <br/>
 
 <h4 id="followers">Get Brand Followers</h4>
+<p>Retrieve all brand's followers</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
@@ -140,6 +146,8 @@ Response Example
 <br/>
 
 <h4 id="products">Get Brand Products</h4>
+<p>Retrieve all brand's products</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -190,6 +198,8 @@ Response Example
 <br/>
 
 <h4 id="promotions">Get Brand Promotions</h4>
+<p>Retrieve all brand's promotions</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -214,6 +224,8 @@ Response Example
 <br/>
 
 <h4 id="scans">Get Brand Scans</h4>
+<p>Retrieve all brand's scans</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: √
@@ -237,7 +249,9 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="add-follower">Add Brand Follower</h4>
+<h4 id="follower">Create Brand Follower</h4>
+<p>Set the user as follower of the brand</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √
@@ -267,6 +281,8 @@ Response Example
 <br/>
 
 <h4 id="delete-follower">Delete Brand Follower</h4>
+<p>Remove the user as follower of the brand</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √

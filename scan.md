@@ -10,12 +10,14 @@ permalink: /scans/
 <h3>Methods</h3>
 [Get Scans](#scans) | 
 [Get Scan](#scan) | 
-[Add Scan](#add)
+[Create Scan](#create)
 <br/>
 <br/>
 <br/>
 
 <h4 id="scans">Get Scans</h4>
+<p>Retrieve all scans</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -52,6 +54,8 @@ Response Example
 <br/>
 
 <h4 id="scan">Get Scan</h4>
+<p>Retrieve one scan</p>
+
 HTTP Method: GET
 <br/>
 Requires Authentication: x
@@ -86,7 +90,9 @@ Response Example
 </pre>
 <br/>
 
-<h4 id="add">Add Scan</h4>
+<h4 id="create">Add Scan</h4>
+<p>Create a scan for the user</p>
+
 HTTP Method: POST
 <br/>
 Requires Authentication: √
